@@ -14,3 +14,12 @@ RewriteRule . /pinnaclegaming/index.php [L]
 </IfModule>
 
 # END WordPress
+# BEGIN Simply Static
+# Директивы (строки) между `BEGIN Simply Static` и `END Simply Static`
+# созданы автоматически и подлежат изменению только через фильтры WordPress.
+# Сделанные вручную изменения между этими маркерами будут перезаписаны.
+<Files "F:\xampp\htdocs\pinnacleGaming/wp-content/uploads\simply-static\210391fb78d343ca2a9283009a4533ac-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static
