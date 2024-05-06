@@ -1,0 +1,407 @@
+main{
+	background-color: #1E1E1E;
+	border-bottom: 1px solid #93F5FF;
+	filter: drop-shadow(0 0px 40px rgba(147, 245, 255, 1));
+	
+}
+
+footer{
+	background-color: #000000;
+}
+
+header{
+	border-bottom: 1px solid #93F5FF;
+	filter: drop-shadow(0 0px 40px rgba(147, 245, 255, 1));
+}
+ .navbarCollor {
+ 	background-color:  rgba(1, 1, 1, 0.8);
+ }
+
+ .logo{
+    width: 150%;
+}
+
+.bgPanda {
+	background-color: #1E1E1E;
+	background-image: url('assets/bgPanda.png'); /* Укажите путь к вашему изображению */
+	background-repeat: no-repeat; /* Запрещаем повторение изображения */
+	background-size: cover; /* Масштабируем изображение так, чтобы оно полностью покрывало фон */
+	background-position: center;
+}
+
+.imgBrdr{
+	border-bottom: 2px solid rgba(147, 245, 255, 1);
+	filter: drop-shadow(0 1 40px rgba(147, 245, 255, 1));	
+	width: 100%;
+
+}
+
+.myNavtxt{
+font-family: 'Alumni Sanc Collegiate One';
+font-style: italic;
+font-size: 2.5em;
+line-height: 27px;
+color: rgba(255, 255, 255, 0.5);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.flex-container{
+	display: flex; 
+	flex-direction: column;
+  align-items: flex-end;
+  flex-grow: 1; /* Занимает всю доступную ширину */
+    flex-shrink: 0; /* Не сжимается при нехватке места */
+}
+
+
+.logoTXTbig{
+font-family: 'Alumni Sanc Collegiate One';
+font-style: italic;
+font-size: 38px;
+line-height: 15px;
+color: #FF409B;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+text-decoration: none;
+}
+
+.logoTXTlittle{
+font-family: 'Alumni Sanc Collegiate One';
+font-style: italic;
+font-size: 20px;
+line-height: 15px;
+color: #FF409B;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+text-decoration: none;
+opacity:0.5;
+}
+
+.bigTxt{
+	font-family: 'Tuffy-Regular';
+	font-size: 45px;
+	line-height: 80px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.mainTxt{
+	font-family: 'Tuffy-Regular';
+	font-size: 26px;
+	line-height: 35px;
+	color: #FFFFFF;
+	letter-spacing: -2px;
+	font-weight: normal;
+}
+
+.image{
+	z-index: 2;
+	width: 80%;
+}
+
+.firstBlock{
+	display: flex; 
+	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 150px;
+  	margin-top: -100px;
+}
+
+.firstSubBlock{
+	display: flex; 
+	flex-direction: column;
+  	align-items: flex-start;
+}
+
+.secondBlock{
+	display: flex; 
+	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 50px;
+}
+
+.text-overlay{
+	position: absolute; /* Абсолютное позиционирование текста поверх изображения */
+    top: 50%; /* Выравнивание текста по вертикали */
+    left: 50%; /* Выравнивание текста по горизонтали */
+    transform: translate(-50%, -50%); /* Центрирование текста */
+    padding: 10px; /* Пример отступов для текста */
+    width: 80%; 
+
+}
+
+.text-overlay p {
+	font-family: 'Tuffy-Regular';
+	font-size: 26px;
+	line-height: 35px;
+	color: #FFFFFF;
+	letter-spacing: -2px;
+	font-weight: normal;
+}
+
+.image-container{
+	position: relative;
+}
+
+
+
+.moveTop{
+	margin-top: -60px;
+}
+
+.thirdBlock{
+	display: flex; 
+	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 100px;
+  	padding-left: 85px; /* Отступ слева */
+    padding-right: 85px; /* Отступ справа */
+}
+
+.moveUp{
+	margin-top: 1000px;
+}
+
+.circleImage{
+	width: 650px; /* Новая ширина */
+    height: auto;;
+}
+
+.image-text{
+	font-family: 'Alumni Sanc Collegiate One';
+	font-size: 48px;
+	color: #FFFFFF;
+	font-weight: normal;
+
+	position: absolute;
+    top: 50%; /* Выравнивание текста по вертикали */
+    left: 50%; /* Выравнивание текста по горизонтали */
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Начальная прозрачность текста */
+    transition: opacity 0.3s ease; /* Плавное появление текста */
+}
+
+.image-container:hover .image-text {
+    opacity: 1; /* При наведении на контейнер с изображением текст становится видимым */
+}
+
+.square {
+    width: 600px; /* Ширина квадрата */
+    height: 420px; /* Высота квадрата */
+    background-color: #1E1E1E; /* Цвет квадрата (в данном случае красный) */
+    border: 1px solid rgba(255, 64, 155, 0.5);
+    filter: drop-shadow(0 0 40px rgba(255, 64, 155, 0.5));
+}
+
+.text-overlay2{
+	position: absolute; /* Абсолютное позиционирование текста поверх изображения */
+    top: 50%; /* Выравнивание текста по вертикали */
+    left: 50%; /* Выравнивание текста по горизонтали */
+    transform: translate(-50%, -50%); /* Центрирование текста */
+    padding: 5px; /* Пример отступов для текста */
+    width: 90%; 
+
+}
+
+.text-overlay2 p {
+	font-family: 'Tuffy-Regular';
+	font-size: 26px;
+	line-height: 35px;
+	color: #FFFFFF;
+	letter-spacing: -2px;
+	font-weight: normal;
+}
+
+.fourthBlock{
+	display: flex; 
+	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 400px;
+}
+
+.square_image{
+	width:105%;
+}
+
+.gameTxtBlock{
+	margin-top: 120px;
+	padding: 30px;
+}
+
+@media (max-width: 1440px) {
+	.square_image{
+		width: 105%	;
+	}
+    .text-overlay p{
+    	font-size: 22px;
+		width:110%;
+
+    }
+
+
+    .gameTxtBlock{
+	margin-top: 50px;
+	padding: 0px;
+	}	
+
+	.circleImage{
+		width: 95%;
+	}
+
+}
+
+@media (max-width: 1400px) {
+    .square{
+		width: 95%;
+	}
+}
+
+@media (max-width: 1366px) {
+	.square_image{
+		width: 110%	;
+	}
+    .text-overlay p{
+    	font-size: 22px;
+		width:120%;
+		margin-left: -8px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+	.image{
+		width: 95%;
+	}
+	.bigTxt{
+		font-size: 30px;
+	}
+
+	.square_image{
+		width: 110%	;
+	}
+    .text-overlay p{
+    	font-size: 19px;
+		width:125%;
+		margin-left: -12px;
+    }
+
+    .gameTxtBlock{
+	margin-top: -10px;
+	padding: 0px;
+	}	
+
+	.circleImage{
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 992px) {
+    .image {
+        width: 180%; /* или любое другое значение, которое вы хотите использовать для маленьких экранов */
+        margin-left: -130px;
+    }
+
+    .text-overlay p{
+    	font-size: 26px;
+		width:100%;
+    }
+
+    .square_image{
+		width: 100%	;
+	}
+
+	.firstBlockTxt{
+		margin-top: -280px;
+	}
+
+	.text1_800{
+		text-align: center;
+	}
+	.containerSwitch{
+    	display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .circleImage{
+		width: 105%;
+	}
+
+    .gameTxtBlock .mainTxt{
+		font-size: 22px;
+	}
+
+}
+
+@media (max-width: 768px) {
+	.containerSwitch2{
+		display: flex;
+        flex-direction: column-reverse;
+	}
+
+	.image {
+        width: 120%; /* или любое другое значение, которое вы хотите использовать для маленьких экранов */
+    }
+
+    .left50{
+		margin-left: -35px;
+	}
+
+	.text1_800{
+    	margin-left:  -150px;
+    }
+
+      .circleImage{
+		width: 100%;
+	}
+
+    .gameTxtBlock .mainTxt{
+		font-size: 26px;
+		text-align: center;
+	}
+
+	.gameTxtBlock .bigTxt{
+		font-size: 36px;
+		text-align: center;
+	}
+
+	.contactBlock .mainTxt{
+		text-align: center;
+	}
+
+		.contactBlock .bigTxt{
+		text-align: center;
+	}
+}
+
+/* Этот код будет применять стили изображения только на экранах с максимальной шириной до 768 пикселей */
+@media (max-width: 640px) {
+    .image {
+        width: 90%; /* или любое другое значение, которое вы хотите использовать для маленьких экранов */
+    }
+
+	.left50{
+		margin-left: 45px;
+	}
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Alumni Sanc Collegiate One';
+    src: url('AlumniSansCollegiateOne-Italic.ttf') format('truetype'),
+}
+
+@font-face{
+	font-family: 'Tuffy-Regular';
+   	src:url('Tuffy-Regular.ttf') format('truetype')
+}
